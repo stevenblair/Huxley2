@@ -63,6 +63,6 @@ stages:
         ConnectionType: 'AzureRM'
         azureSubscription: 'Free Trial(7d4f6424-6791-407b-926e-9d70d99fc942)'
         appType: 'webAppLinux'
-        WebAppName: 'huxley2'
+        WebAppName: 'commuter-bliss'
         packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'
         RuntimeStack: 'DOTNETCORE|6.0'
