@@ -7,4 +7,4 @@ services:
       - DarwinStaffAccessToken=${STAFF_ACCESS_TOKEN}
       - ClientAccessToken=${CLIENT_ACCESS_TOKEN}
     ports:
-      - "8081:80"
+      - "8080:80"
